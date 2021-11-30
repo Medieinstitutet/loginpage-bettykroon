@@ -1,18 +1,23 @@
-let anvNamn = "janne";
-let losOrd = "test";
-
 let userName = document.getElementById("anv");
-let psw = document.getElementById("losen");
+let passWrd = document.getElementById("losen");
 let myBtn = document.getElementById("myBtn");
 
+localStorage.setItem("user", "janne");
+localStorage.setItem("pass", "test");
+
+let user = localStorage.getItem("user");
+let pass = localStorage.getItem("pass");
+
+let message = document.getElementById("myText");
+
 myBtn.addEventListener("click", function(){
-    if(anvNamn == userName.value && losOrd == psw.value) {
-        alert("YEY");
+    if(user == userName.value && pass == passWrd.value){
+        alert("success");
         userName.value = "";
-        psw.value = "";
+        passWrd.value = "";
     } else {
-        alert("YOU ARE WRONG");
+        alert("fail");
         userName.value = "";
-        psw.value = "";
+        passWrd.value = "";
     }
-})
+});
