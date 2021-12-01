@@ -16,10 +16,64 @@
 }
 
 #myHeader {
-    background-color: red;
-    height: 100px;
+    background-color: #ff99cc;
+    height: auto;
 }
 
 #myHeader h1 {
     text-align: center;
+}
+
+#myDiv {
+    padding: 30px;
+}
+
+#myInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#myPassWrd {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#logInBtn {
+    width: 100%;
+    background-color: #b30059;    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#logInBtn:hover {
+    background-color: #800040;
+}
+
+#logOut {
+    width: 100%;
+    background-color: #b30059;    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#logOut:hover {
+    background-color: #800040;
 }
