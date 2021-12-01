@@ -71,7 +71,8 @@ function loggedOut(){
             // Visar istället "logga ut"-knappen
             loggedIn();
         } else {
-            content.innerText = "Du har angett fel användarnamn eller lösenord, försök gärna igen!"
+            contentTitle.innerText = "Ett fel uppstod.."
+            contentText.innerText = "Du har angett fel användarnamn eller lösenord, försök gärna igen!"
             myInput.value = "";
             myPassWrd.value = "";
             localStorage.clear();
