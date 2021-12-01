@@ -12,7 +12,7 @@
     padding-top: 20px;
     height: 50px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 #myHeader {
@@ -22,6 +22,7 @@
 
 #myHeader h1 {
     text-align: center;
+    padding: 8px;
 }
 
 #myDiv {
@@ -76,4 +77,17 @@
 
 #logOut:hover {
     background-color: #800040;
+}
+
+#contentTitle {
+    text-align: center;
+}
+
+#contentText {
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+    padding-top: 10px;
 }
