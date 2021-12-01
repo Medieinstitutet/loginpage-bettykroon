@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#myFooter {
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#myHeader {
+    background-color: red;
+    height: 100px;
+}
+
+#myHeader h1 {
+    text-align: center;
+}
